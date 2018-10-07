@@ -1,0 +1,11 @@
+.month-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+  align-items: center;
+  .month-title {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+}

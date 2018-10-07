@@ -1,0 +1,15 @@
+.days-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-top: 1px solid #f3f3f3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .day {
+    flex: 0 0 14%;
+    padding-right: 2px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
